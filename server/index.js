@@ -1,4 +1,4 @@
-const port = 4002
+const port = 3002
 
 import express from 'express'
 
