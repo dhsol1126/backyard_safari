@@ -35,7 +35,14 @@ class Dashboard extends Component {
 
     return(
       <div className='dashboard' style={{textAlign: 'center'}}>
-
+        <Container className='home' style={{textAlign: 'center'}}>
+          <Grid style={{marginTop:60}}>
+            <Grid.Column textAlign='center' width={16}>
+              <Link to="/upload_image">Upload an image</Link>
+            </Grid.Column>
+          </Grid>
+        </Container>
+        
         <div style={{marginTop:60}}>
           <div>
             <span style={{cursor: 'pointer'}} onClick={() => this.logoutRequest()}>logout fun!</span>
